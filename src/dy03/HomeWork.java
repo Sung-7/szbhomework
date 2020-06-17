@@ -11,6 +11,16 @@ public class HomeWork {
 //        System.out.println("  *****");
 //        System.out.println(" *******");
         //法2 -- 有点问题的方案
+//        for (i = 1; i < 8; i++) {
+//            for (j = 4; j < 4+i; j++) {
+//                System.out.print(" ");
+//                for (k=1;k<=j/2;k++){
+//                    System.out.print("*");
+//                }
+//            }
+//            System.out.println();
+//        }
+        //不成熟的方案
 //        int i;
 //        int j;
 //        int k;
@@ -21,21 +31,13 @@ public class HomeWork {
 //            for (k = 0;k < 2 * i - 1; k++){
 //                System.out.print("*");
 //            }
-//            for (k = 0; k <= i; k++){
+///*          for (k = 0; k <= i; k++){
 //                System.out.print("*");
 //            }
+// */
 //            System.out.println();
 //        }
-        //不成熟的方案
-//        for (i = 1; i < 8; i++) {
-//            for (j = 4; j < 4+i; j++) {
-//                System.out.print(" ");
-//                for (k=1;k<=j/2;k++){
-//                    System.out.print("*");
-//                }
-//            }
-//            System.out.println();
-//        }
+//
         //最终方案
         for (int x = 1; x <= 5; x++) {
             //当行输出的" "数
