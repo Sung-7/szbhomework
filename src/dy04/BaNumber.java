@@ -20,6 +20,7 @@ public class BaNumber {
         //为八个整数数组声明并分配空间
         int [] baShu = new int[8];
         //使用for循环从键盘接收输入的整数
+        System.out.println("Welcome!请以‘回车’为间隔输入8个整数：");
         Scanner input=new Scanner(System.in);
         for (int i=0;i<baShu.length;i++){
             baShu[i] = input.nextInt();
@@ -44,7 +45,7 @@ public class BaNumber {
 
         //输出部分
         shuChu(jiShu,ouShu);
-
+        System.out.println("End！Bye~");
     }
 
     //输出函数--将奇偶数组交替输出
@@ -65,20 +66,28 @@ public class BaNumber {
         //循环输出--以‘一奇一偶’形式输出
         System.out.println("一奇一偶交替输出如下：");
         for (int i =0;i<min;i++){
-            System.out.println(jiShu[i]);
-            System.out.println(ouShu[i]);
+            System.out.print(jiShu[i]+" ");
+            System.out.print(ouShu[i]+" ");
         }
-        //奇数过多
-        if (jiShu.length>ouShu.length){
-            for (int i=min;i<max;i++){
-                System.out.println(jiShu[i]);
-            }
-            //偶数过多
-        }else {
-            for (int i=min;i<max;i++){
-                System.out.println(ouShu[i]);
+        //溢出
+        if (min!=max) {
+            System.out.println();
+            System.out.println("奇偶数不平衡");
+            //奇数过多
+            if (jiShu.length > ouShu.length) {
+                System.out.print("奇数有点多，多出来的都在这：");
+                for (int i = min; i < max; i++) {
+                    System.out.print(jiShu[i]+" ");
+                }
+                //偶数过多
+            } else {
+                System.out.print("偶数太多了，你看：");
+                for (int i = min; i < max; i++) {
+                    System.out.print(ouShu[i]+" ");
+                }
             }
         }
+        System.out.println();
     }
 
     //分开存储方法--将奇偶数分别存入奇数数组，偶数数组
