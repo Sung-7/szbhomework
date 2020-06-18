@@ -63,6 +63,7 @@ public class BaNumber {
         }
 
         //循环输出--以‘一奇一偶’形式输出
+        System.out.println("一奇一偶交替输出如下：");
         for (int i =0;i<min;i++){
             System.out.println(jiShu[i]);
             System.out.println(ouShu[i]);
@@ -123,6 +124,9 @@ public class BaNumber {
                 jiOu[0]++;
             }
         }
+
+        //输出奇数，偶数个数
+        System.out.println("八个数中，有"+jiOu[0]+"个奇数，"+jiOu[1]+"个偶数.");
         //返回记录数组jiOu
         return jiOu;
     }
