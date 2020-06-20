@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="379b2334-23ff-400c-bd63-6236619c8012" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dy06/Copy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dy04/BaNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dy04/BaNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,15 +47,33 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.BaNumber">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\szbhomework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Copy">
     <configuration name="BaNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dy04.BaNumber" />
       <module name="szbhomework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dy04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dy06.Copy" />
+      <module name="szbhomework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dy06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,8 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BaNumber" />
+        <item itemvalue="Application.Copy" />
         <item itemvalue="Application.HomeWork" />
+        <item itemvalue="Application.BaNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +128,10 @@
       <workItem from="1592355862854" duration="21000" />
       <workItem from="1592358202625" duration="842000" />
       <workItem from="1592374397171" duration="12655000" />
-      <workItem from="1592469698020" duration="6872000" />
+      <workItem from="1592469698020" duration="7063000" />
+      <workItem from="1592481196472" duration="1535000" />
+      <workItem from="1592524210109" duration="81000" />
+      <workItem from="1592639348009" duration="2823000" />
     </task>
     <task id="LOCAL-00001" summary="孙朝勃第一次作业">
       <created>1592354836562</created>
@@ -152,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592475733082</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="孙朝勃第二次作业[从键盘输入8个数，分存两组，奇偶交替输出]">
+      <created>1592476698034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592476698034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,54 +195,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="孙朝勃第二次作业[从键盘输入8个数，分存两组，奇偶交替输出]" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1592475731014">
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1592476695936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592475731014" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1592385708360">
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1592476695936" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1592639438628">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592385708360" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592476658977">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592639438628" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1592643043404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592476658977" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592476658977">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592643043404" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1592643043404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592476658977" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592476658977">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1592643043404" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1592643043404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592476658977" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592476658977">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1592643043404" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1592643043404">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592476658977" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1592387071377">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1592643043404" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1592642399213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592387071377" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1592387071377">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1592642399213" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1592642399212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592387071377" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1592387071377">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1592642399212" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1592642399212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592387071377" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1592387071377">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1592642399212" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1592642399213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592387071377" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1592358389002">
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1592642399213" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1592481276627">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592358389002" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592475741003">
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1592481276627" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1592476706739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592475741003" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1592476706739" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1592382922151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
